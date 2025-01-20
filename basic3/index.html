@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+                 <!-- forms basics -->
+
+        <form action="https://www.snapchat.com/">
+
+            <!-- <label for="search">Search on google: </label> -->
+
+            <input type="text" placeholder="snapchat username" id = "search" name="original_referrer">
+            <button type="submit">search</button>
+
+        </form>
+
+            <br>
+            <hr>
+
+            <form action="/server">
+
+                 <!-- checkbox -->
+
+            <label for="age">I am 20+</label>
+
+            <input type="checkbox" name="age" id="age">
+
+            <br>
+
+
+            <label for="age">I am 18+</label>
+
+            <input type="checkbox" name="age" id="age">
+
+            <br>
+            <br>
+
+            <button type="submit">submit</button>
+
+
+            <!-- Radio buttons -->
+
+            <br>
+
+            <input type="radio" name="Fruits" id="Apple" value="Apple">
+            <label for="Apple">Apple</label>
+
+            <input type="radio" name="Fruits" id="Mango" value="Mango">
+            <label for="Mango">Mango</label>
+
+            <input type="radio" name="Fruits" id="Orange" value="Orange">
+            <label for="Orange">Orange</label>
+
+
+            <!-- select button ( drop down menu) -->
+
+            <br>
+            <br>
+
+
+            <label for="pet-select">Choose a pet</label>
+            <br>
+            <select name="pet" id="pet-select">
+
+                <option value="">--Please  choose an option--</option>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Parrot">Parrot</option>
+            </select>
+
+            <br>
+
+            <!-- range -->
+
+            <label for="vol">control volume</label>
+            <input type="range" id="vol" name="vol" min="0" max="100" step="2">
+            </form>
+
+            <!-- registration form -->
+
+            <h1>Registration Form</h1>
+
+            <form action="/server">
+
+                <div>
+                    
+                    <input type="text" placeholder="First Name" name="fname">
+                    <input type="text" placeholder="Last Name" name="lname">
+
+                </div>
+
+                <div>
+
+                    <label for="gender">Please select gender</label>
+                    <select name="gender" id="gender">
+                        <option value="Male">Male</option>
+                        <option value="female">female</option>
+                        <option value="other">other</option>
+                    </select>
+
+                </div>
+
+                <div>
+                    <span>Do you agree to all terms of service?</span>
+                    <input type="checkbox" id="yes" name="agree" value="yes">
+                    <label for="yes">Yes, I agree</label>
+                </div>
+
+                <div>
+                    <button type="submit">Register</button>
+                </div>
+
+                
+
+
+
+            </form>
+
+</body>
+</html>
