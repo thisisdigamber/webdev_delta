@@ -1,0 +1,74 @@
+/* descendent selector */
+
+.post a {
+    color: white;
+    background: #3f711c;
+}
+
+
+/* sibling contributer */
+
+p + h3{
+
+    text-decoration: underline;
+}
+
+.upvote + button{
+
+    background-color: lightsalmon;
+}
+
+
+/* child selector */
+
+span > button {
+
+    color: red;
+}
+
+/* attribute selector */
+
+
+input[type="text"]{
+
+    background-color: lightblue;
+}
+
+input[type="password"]{
+
+    background-color: rgb(187, 244, 113);
+}
+
+
+/* pseudo classes */
+
+button:hover{
+
+    background-color: lightblue;
+}
+
+h3:active{
+
+    color: red;
+}
+
+input[type="radio"]:checked + label{
+
+    color: red;
+    background-color: blueviolet;
+}
+
+h3:nth-child(2n){
+
+   text-decoration: overline;
+
+    
+}
+
+/* pseudo elements */
+
+h3::first-letter{
+    
+    color: red;
+    font-size: 2em;
+}

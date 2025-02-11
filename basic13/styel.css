@@ -1,0 +1,59 @@
+.box{
+
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: widthanimator 4s ease-in 0s infinite alternate,
+     textAnimator 4s ease-in 0s infinite alternate ;
+
+     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+    
+
+    animation-delay: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+@keyframes widthanimator {
+
+    from{
+
+        width: 400px;
+        height: 400px;
+        border-radius: 0%;
+        background-color: lightblue;
+
+    }
+
+    to{
+
+        width: 700px;
+        height: 700px;
+        border-radius: 50%;
+
+        background-color: lightgray;
+
+    }
+    
+}
+
+@keyframes textAnimator {
+
+
+    from{
+        font-size: 40px;
+    }
+
+    to{
+
+        font-size: 60px;
+    }
+    
+}

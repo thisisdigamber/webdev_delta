@@ -1,0 +1,48 @@
+.box4{
+    height: 50px;
+    width: 500px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 700px;
+    transition: 2s;
+
+}
+
+.box4:hover{
+    
+    transform: rotate(90deg) scale(0.080,9) ;
+
+}
+
+.box5{
+
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: absolute;
+    top: 900px;
+    transition: 2s;
+
+}
+
+.box5:hover{
+    
+    transform: translate(200px)  skew(30deg);
+
+}
+
+.box7{
+
+    height: 400px;
+    width: 800px;
+    background-color: rgb(20, 109, 44);
+    position: absolute; 
+    top: 1150px;
+    left: 500px;
+    /* margin: auto; */
+
+    background-image: url("image.jpg");
+    background-size: cover;
+}
+
+
