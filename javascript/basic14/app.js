@@ -58,3 +58,114 @@ else{
 
     console.log("better luck next time");
 }
+
+let string = "apple";
+
+if(string[0] === "a" && string.length > 3 ) {
+    console.log("string is good");
+}
+else{
+
+    console.log("string is not good");
+}
+
+
+// switch statments
+
+let color = "red";
+
+switch(color){
+
+    case "red":
+        console.log("stop");
+    break;
+
+    case "yellow":
+        console.log("slow down");
+    break;
+
+    case "green":
+        console.log("go");
+    break;
+
+    default:
+        console.log("traffic lights are broken");
+
+
+}
+
+// week days
+
+let day = 3;
+
+switch(day){
+
+    case 1 :
+        console.log("Monday");
+    break;
+
+    case 2 :
+        console.log("Tuesday");
+    break;
+    case 3 :
+        console.log("Wenesday");
+    break;
+    case 4 :
+        console.log("Thursday");
+    break;
+    case 5 :
+        console.log("Friday");
+    break;
+    case 6 :
+        console.log("Saturday");
+    break;
+    default :
+        console.log("Sunday");
+
+}
+
+
+alert("hey! hope your experience was good on this webpage")
+
+console.error("this is an error message");
+console.warn("this is a warning message");
+
+let fname = prompt("enter your first name");
+console.log(fname);
+
+let lname = prompt("enter your last name");
+console.log(lname);
+
+console.log("welcome" , fname, lname, "!");
+alert("Welcome" + " " + fname + lname + "!");
+
+let str = "   hello   ";
+
+console.log("str = ", str);
+
+// .trim() method 
+
+strNew = str.trim();
+
+console.log("strNew = " , strNew);
+
+// .indexOf(arg) method 
+
+let msg1 = "ILoveCoding";
+console.log(msg1.indexOf("Love"));
+
+// method chaining
+
+let msg = "    Hello  ";
+console.log(msg.trim().toUpperCase());
+
+// .slice()
+
+let srting = "ilovecoding";
+
+console.log(srting.replace("love", "do"));
+
+console.log(srting.repeat(3));
+
+
+
